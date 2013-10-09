@@ -12,22 +12,11 @@ VH::place ( 'title' );
 <link rel="stylesheet" type="text/css" href="public/css/main.css" />
 </head>
 <body>
-	<div class="left_column_wrapper">
-		<ul class="left_navigation">
-			<li>Application
-				<ul>
-					<li><a href="app/form">New</a></li>
-					<li><a href="">List</a></li>
-				</ul>
-			</li>
-		</ul>
-	</div>
-	<div class="content_wrapper">
+	<div class="wrapper">
+	<div class="header"></div>
 		<div class="content">
-<?php
-VH::place ( 'title' );
-VH::place ( 'content' );
-?></div>
+	 <?php VH::contentHere();?>
+	 </div>
 	</div>
 </body>
 </html>

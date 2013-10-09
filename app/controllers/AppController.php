@@ -11,7 +11,7 @@ class AppController extends Base {
 	function doIndex() {
 		$model = new AppModel ();
 		$data = $model->lst ();
-		dbg($data);
+		$this->set('applist', $data);
 	}
 }
 
