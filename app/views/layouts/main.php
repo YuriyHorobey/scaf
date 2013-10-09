@@ -13,7 +13,11 @@ VH::place ( 'title' );
 </head>
 <body>
 	<div class="wrapper">
-	<div class="header"></div>
+		<div class="header">
+			<ul class="top_nav">
+				<li><a  id="nav_home" href="app">home</a></li>
+			</ul>
+		</div>
 		<div class="content">
 	 <?php VH::contentHere();?>
 	 </div>
