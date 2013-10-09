@@ -1,0 +1,34 @@
+
+.left_column_wrapper {
+    float: left;
+    width: 16%;
+}
+.left_navigation {
+    border: 1px solid #EEEEEE;
+    border-radius: 2em 2em 2em 2em;
+    height: 39px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 1em 0 2em 2em;
+}
+.left_navigation li {
+    border-radius: 3px 3px 3px 3px;
+    margin-right: 6px;
+}
+.left_navigation li a {
+    text-decoration: none;
+}
+.left_navigation li a:hover {
+    color: #000055;
+    text-decoration: underline;
+}
+.content_wrapper {
+    float: left;
+    width: 80%;
+}
+.content {
+    border: 1px solid #EEEEEE;
+    border-radius: 2em 2em 2em 2em;
+    margin-left: 1em;
+    padding: 1em 2em 2em;
+}
