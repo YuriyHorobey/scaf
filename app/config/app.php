@@ -1,10 +1,10 @@
 <?php
-
 return array (
 		'home' => "app",
 		'db' => array (
 				'dsn' => 'mysql:host=localhost;dbname=dsf_scaf',
-				'user' => 'root' 
+				'user' => 'root',
+				'pass' => 'qqq' 
 		) 
 );
 ?>
