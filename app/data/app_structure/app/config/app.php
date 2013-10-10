@@ -4,6 +4,11 @@
 //which stores framework global setting
 //load these settings with CFG::load();
 return array (
+		//optional 'root' route
+		//defaults to 'home/index'
+		//setting this to 'some/action results in
+		//www.mysite.com will be served by SomeController::doAction()
+		'home' => 'home',
 		//database credentials
 		'db' => array (
 				//DSN: refer to your DB documentation

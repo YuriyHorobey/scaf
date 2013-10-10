@@ -3,6 +3,7 @@
 	<name>scaf</name>
 	<comment></comment>
 	<projects>
+		<project>DSF</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
