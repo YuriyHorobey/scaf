@@ -23,10 +23,9 @@ VH::place ( 'title' );
 		<div class="content">
 			<h1><?php VH::place ( 'title' );?></h1>
 	 <?php
-		$err = VH::LST ( '_errors' )->tplHeader ( '<div class="errors"><ul>' )->tplItem ( '<li>{{0}}</li>' )->tplFooter ( '</ul></div>' )->render();
-		dbg(VH::dget('_errors'));
+		$err = VH::MSG ( '_errors' )->render ();
 		VH::contentHere ();
-	  ?>
+		?>
 	 </div>
 	</div>
 </body>
