@@ -4,8 +4,8 @@ return array (
 		'db' => array (
 				'dsn' => 'mysql:host=localhost;dbname=dsf_scaf',
 				'user' => 'root',
-				'pass' => '' 
-				//'pass' => 'qqq' 
+			//	'pass' => '' 
+				 'pass' => 'qqq' 
 		) 
 );
 ?>
